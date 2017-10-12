@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/fcatuhe/administrate-field-image.git
+  revision: 1eeb05bed64adaf14b6ef7af1d443ca7c408427e
+  specs:
+    administrate-field-image (1.1.0)
+      administrate (>= 0.2.0.rc1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -49,8 +56,6 @@ GEM
       momentjs-rails (~> 2.8)
       sass-rails (~> 5.0)
       selectize-rails (~> 0.6)
-    administrate-field-image (1.1.0)
-      administrate (>= 0.2.0.rc1)
     arel (8.0.0)
     autoprefixer-rails (7.1.5)
       execjs
@@ -209,7 +214,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate
-  administrate-field-image
+  administrate-field-image!
   byebug
   coffee-rails (~> 4.2)
   figaro

@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'administrate'
-gem 'administrate-field-image'
+gem 'administrate-field-image', github: 'fcatuhe/administrate-field-image'
 # gem 'administrate-field-json'
 gem 'figaro'
 gem 'rest-client'

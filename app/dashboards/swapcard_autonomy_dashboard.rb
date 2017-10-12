@@ -37,7 +37,7 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
     :last_name,
     :job_title,
     :second_job_title,
-    # :photo_thumbnail,
+    :photo_thumbnail,
     :biography,
     :organization,
     :email,
