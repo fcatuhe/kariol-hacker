@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.4.2'
 
-
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -37,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'administrate'
 gem 'administrate-field-image', github: 'fcatuhe/administrate-field-image'
-# gem 'administrate-field-json'
+# gem 'administrate-field-json', github: 'henvo/administrate-field-json'
 gem 'figaro'
 gem 'rest-client'
 

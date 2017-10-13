@@ -32,14 +32,13 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
   # Feel free to add, remove, or rearrange items.
   COLLECTION_ATTRIBUTES = [
     :id,
-    :sc_id,
+    :photo_thumbnail,
     :first_name,
     :last_name,
     :job_title,
     :second_job_title,
-    :photo_thumbnail,
-    :biography,
     :organization,
+    :biography,
     :email,
     :website_url,
     :company_name,
@@ -49,17 +48,17 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed on the model's show page.
   SHOW_PAGE_ATTRIBUTES = [
     :id,
-    :sc_id,
+    :photo_thumbnail,
     :first_name,
     :last_name,
     :job_title,
     :second_job_title,
-    :photo_thumbnail,
-    :biography,
     :organization,
+    :biography,
     :email,
     :website_url,
     :company_name,
+    :sc_id,
     :swapcard_json,
     :created_at,
     :updated_at,
@@ -69,18 +68,6 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
   # an array of attributes that will be displayed
   # on the model's form (`new` and `edit`) pages.
   FORM_ATTRIBUTES = [
-    :sc_id,
-    :first_name,
-    :last_name,
-    :job_title,
-    :second_job_title,
-    :photo_thumbnail,
-    :biography,
-    :organization,
-    :email,
-    :website_url,
-    :company_name,
-    :swapcard_json,
   ].freeze
 
   # Overwrite this method to customize how swapcard autonomies are displayed
