@@ -5,14 +5,6 @@ GIT
     administrate-field-image (1.1.0)
       administrate (>= 0.2.0.rc1)
 
-GIT
-  remote: https://github.com/henvo/administrate-field-json.git
-  revision: eee02e303e03aad80860a703ad6dfa2a63f72623
-  specs:
-    administrate-field-json (0.0.4)
-      administrate (~> 0.3)
-      rails (>= 4.2, < 5.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -223,7 +215,6 @@ PLATFORMS
 DEPENDENCIES
   administrate
   administrate-field-image!
-  administrate-field-json!
   byebug
   coffee-rails (~> 4.2)
   figaro
