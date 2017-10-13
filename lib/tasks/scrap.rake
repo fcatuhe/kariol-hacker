@@ -19,7 +19,7 @@ namespace :scrap do
         url,
         payload.to_json,
         accept: :json,
-        Authorization: "Bearer #{ENV['bearer']}"
+        Authorization: "Bearer #{ENV['BEARER']}"
       )
       response = JSON.parse rest_response
 
