@@ -1,5 +1,13 @@
 RailsAdmin.config do |config|
 
+  if Rails.env.production?
+    config.authenticate_with do
+      authenticate_or_request_with_http_basic do |username, password|
+        username == ENV['ADMIN_NAME'] && password == ENV['ADMIN_PASSWORD']
+      end
+    end
+  end
+
   ### Popular gems integration
 
   ## == Devise ==
