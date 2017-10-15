@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/rails-admin', as: 'rails_admin'
   namespace :admin do
     resources :swapcard_autonomies
 

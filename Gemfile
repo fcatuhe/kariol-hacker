@@ -38,6 +38,7 @@ gem 'administrate'
 gem 'administrate-field-image', github: 'fcatuhe/administrate-field-image'
 # gem 'administrate-field-json', github: 'henvo/administrate-field-json'
 gem 'figaro'
+gem 'rails_admin'
 gem 'rest-client'
 
 group :development, :test do
