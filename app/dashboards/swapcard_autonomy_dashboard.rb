@@ -20,6 +20,8 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
     email: Field::String,
     website_url: Field::String,
     company_name: Field::String,
+    company_size: Field::String,
+    company_industry: Field::String,
     swapcard_json: Field::Text,
     created_at: Field::DateTime,
     updated_at: Field::DateTime,
@@ -42,6 +44,8 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
     :email,
     :website_url,
     :company_name,
+    :company_size,
+    :company_industry,
   ].freeze
 
   # SHOW_PAGE_ATTRIBUTES
@@ -58,6 +62,8 @@ class SwapcardAutonomyDashboard < Administrate::BaseDashboard
     :email,
     :website_url,
     :company_name,
+    :company_size,
+    :company_industry,
     :sc_id,
     :swapcard_json,
     :created_at,

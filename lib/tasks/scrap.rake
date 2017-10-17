@@ -45,6 +45,8 @@ namespace :scrap do
           email: prospect['email'],
           website_url: prospect['websiteUrl'],
           company_name: prospect.dig('company', 'name'),
+          company_size: prospect.dig('company', 'size'),
+          company_industry: prospect.dig('company', 'industry'),
           swapcard_json: prospect
         )
         print "#{prospect['id']} #{prospect['firstName']} #{prospect['lastName']} - "
